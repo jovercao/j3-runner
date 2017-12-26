@@ -1,0 +1,11 @@
+{
+    "presets": [
+
+    ],
+    "plugins": [
+        "transform-runtime",
+        // "transform-async-to-generator", 因nodejs已经支持async，因此不需要 async to generator了
+        "external-helpers",
+        "transform-es2015-modules-commonjs"
+    ]
+}
